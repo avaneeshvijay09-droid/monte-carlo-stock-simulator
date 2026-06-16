@@ -151,7 +151,8 @@ st.sidebar.header("Simulation Settings")
 
 tickers_raw = st.sidebar.text_input(
     "Stock ticker symbol(s)",
-    value="AAPL, MSFT",
+    value="",
+    placeholder="e.g. AAPL, MSFT, TSLA",
     help="Enter one ticker, or several separated by commas, to compare "
     f"them side by side (max {MAX_TICKERS}). Example: AAPL, MSFT, TSLA",
 )
