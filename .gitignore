@@ -1,0 +1,11 @@
+# Virtual environment - everyone who runs this project creates their own,
+# so we don't upload our copy to GitHub
+venv/
+
+# Python cache files Python generates automatically while running
+__pycache__/
+*.pyc
+
+# Common editor/OS clutter files
+.DS_Store
+.vscode/
