@@ -4,7 +4,7 @@ A web app that simulates thousands of possible future paths for a stock's
 price, using real historical data and the Monte Carlo method — a technique
 used throughout finance, physics, and engineering to model uncertainty.
 
-**[🔗 Live demo](#)** *(link added after deployment)*
+**[🔗 Live demo](https://monte-carlo-stock-simulator-ewh6xtjf9kabd4piajjaps.streamlit.app/)**
 
 ## What it does
 
