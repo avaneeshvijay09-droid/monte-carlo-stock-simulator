@@ -1,20 +1,25 @@
 # 📈 Monte Carlo Stock Price Simulator
 
-A web app that simulates thousands of possible future paths for a stock's
-price, using real historical data and the Monte Carlo method — a technique
-used throughout finance, physics, and engineering to model uncertainty.
+A web app that simulates thousands of possible future paths for one or more
+stocks' prices, using real historical data and the Monte Carlo method — a
+technique used throughout finance, physics, and engineering to model
+uncertainty.
 
 **[🔗 Live demo](https://monte-carlo-stock-simulator-ewh6xtjf9kabd4piajjaps.streamlit.app/)**
 
 ## What it does
 
-1. Downloads a stock's real historical daily prices (via the [Yahoo Finance](https://finance.yahoo.com/) API).
-2. Calculates how that stock has historically behaved: its average daily
+1. Downloads real historical daily prices for one or more stocks (via the [Yahoo Finance](https://finance.yahoo.com/) API).
+2. Calculates how each stock has historically behaved: its average daily
    return ("drift") and how much it tends to fluctuate ("volatility").
 3. Uses those two numbers to simulate thousands of independent, randomly
-   generated possible future price paths.
-4. Visualizes the full spread of outcomes as an interactive chart, plus
-   summary statistics (expected price, optimistic/pessimistic ranges).
+   generated possible future price paths, per stock.
+4. **Compares multiple stocks side by side** on one chart — overlaying each
+   stock's average simulated path and 5th-95th percentile confidence band,
+   color-coded for easy comparison.
+5. Includes a built-in, plain-English explainer of how and why the
+   simulation works, plus summary statistics per stock (expected price,
+   optimistic/pessimistic ranges).
 
 ## Why Monte Carlo simulation?
 
