@@ -86,10 +86,4 @@ monte-carlo-stock-simulator/
 └── README.md
 ```
 
-## ⚠️ Disclaimer
 
-This project is for educational purposes only. It is **not** financial
-advice and should not be used to make real investment decisions. Real
-markets are influenced by far more than historical statistics — news
-events, company fundamentals, broader economic conditions, and investor
-psychology all play a role that this simplified model does not capture.
